@@ -1,0 +1,345 @@
+  - title: 'GarageSD Codes and Configuration'
+    path: keypad-garagesd
+    icon: 'mdi:lock-smart'
+    panel: false
+    badges:
+      - input_boolean.garagesd_lock_notifications
+      - input_boolean.garagesd_dooraccess_notifications
+      - input_boolean.garagesd_garageacess_notifications
+      - entity: >-
+          lock.schlage_allegion_be469zp_connect_smart_deadbolt_locked_garagesd
+      - entity: >-
+          binary_sensor.sensornamedelsd_access_control_frontdoordelsd
+      - entity: >-
+          garagedelsd
+    cards:
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 1
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_1
+              - entity: input_text.garagesd_pin_1
+              - entity: input_boolean.enabled_garagesd_1
+              - entity: input_boolean.notify_garagesd_1
+              - type: divider
+              - entity: binary_sensor.active_garagesd_1
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_1
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_1
+                  - entity: input_number.accesscount_garagesd_1
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_1
+                  - entity: input_datetime.start_date_garagesd_1
+                  - entity: input_datetime.end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.sun_garagesd_1
+                  - input_datetime.sun_start_date_garagesd_1
+                  - input_datetime.sun_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.mon_garagesd_1
+                  - input_datetime.mon_start_date_garagesd_1
+                  - input_datetime.mon_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.tue_garagesd_1
+                  - input_datetime.tue_start_date_garagesd_1
+                  - input_datetime.tue_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.wed_garagesd_1
+                  - input_datetime.wed_start_date_garagesd_1
+                  - input_datetime.wed_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.thu_garagesd_1
+                  - input_datetime.thu_start_date_garagesd_1
+                  - input_datetime.thu_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.fri_garagesd_1
+                  - input_datetime.fri_start_date_garagesd_1
+                  - input_datetime.fri_end_date_garagesd_1
+                  - type: divider
+                  - input_boolean.sat_garagesd_1
+                  - input_datetime.sat_start_date_garagesd_1
+                  - input_datetime.sat_end_date_garagesd_1
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 2
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_2
+              - entity: input_text.garagesd_pin_2
+              - entity: input_boolean.enabled_garagesd_2
+              - entity: input_boolean.notify_garagesd_2
+              - type: divider
+              - entity: binary_sensor.active_garagesd_2
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_2
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_2
+                  - entity: input_number.accesscount_garagesd_2
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_2
+                  - entity: input_datetime.start_date_garagesd_2
+                  - entity: input_datetime.end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.sun_garagesd_2
+                  - input_datetime.sun_start_date_garagesd_2
+                  - input_datetime.sun_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.mon_garagesd_2
+                  - input_datetime.mon_start_date_garagesd_2
+                  - input_datetime.mon_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.tue_garagesd_2
+                  - input_datetime.tue_start_date_garagesd_2
+                  - input_datetime.tue_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.wed_garagesd_2
+                  - input_datetime.wed_start_date_garagesd_2
+                  - input_datetime.wed_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.thu_garagesd_2
+                  - input_datetime.thu_start_date_garagesd_2
+                  - input_datetime.thu_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.fri_garagesd_2
+                  - input_datetime.fri_start_date_garagesd_2
+                  - input_datetime.fri_end_date_garagesd_2
+                  - type: divider
+                  - input_boolean.sat_garagesd_2
+                  - input_datetime.sat_start_date_garagesd_2
+                  - input_datetime.sat_end_date_garagesd_2
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 3
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_3
+              - entity: input_text.garagesd_pin_3
+              - entity: input_boolean.enabled_garagesd_3
+              - entity: input_boolean.notify_garagesd_3
+              - type: divider
+              - entity: binary_sensor.active_garagesd_3
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_3
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_3
+                  - entity: input_number.accesscount_garagesd_3
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_3
+                  - entity: input_datetime.start_date_garagesd_3
+                  - entity: input_datetime.end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.sun_garagesd_3
+                  - input_datetime.sun_start_date_garagesd_3
+                  - input_datetime.sun_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.mon_garagesd_3
+                  - input_datetime.mon_start_date_garagesd_3
+                  - input_datetime.mon_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.tue_garagesd_3
+                  - input_datetime.tue_start_date_garagesd_3
+                  - input_datetime.tue_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.wed_garagesd_3
+                  - input_datetime.wed_start_date_garagesd_3
+                  - input_datetime.wed_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.thu_garagesd_3
+                  - input_datetime.thu_start_date_garagesd_3
+                  - input_datetime.thu_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.fri_garagesd_3
+                  - input_datetime.fri_start_date_garagesd_3
+                  - input_datetime.fri_end_date_garagesd_3
+                  - type: divider
+                  - input_boolean.sat_garagesd_3
+                  - input_datetime.sat_start_date_garagesd_3
+                  - input_datetime.sat_end_date_garagesd_3
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 4
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_4
+              - entity: input_text.garagesd_pin_4
+              - entity: input_boolean.enabled_garagesd_4
+              - entity: input_boolean.notify_garagesd_4
+              - type: divider
+              - entity: binary_sensor.active_garagesd_4
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_4
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_4
+                  - entity: input_number.accesscount_garagesd_4
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_4
+                  - entity: input_datetime.start_date_garagesd_4
+                  - entity: input_datetime.end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.sun_garagesd_4
+                  - input_datetime.sun_start_date_garagesd_4
+                  - input_datetime.sun_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.mon_garagesd_4
+                  - input_datetime.mon_start_date_garagesd_4
+                  - input_datetime.mon_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.tue_garagesd_4
+                  - input_datetime.tue_start_date_garagesd_4
+                  - input_datetime.tue_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.wed_garagesd_4
+                  - input_datetime.wed_start_date_garagesd_4
+                  - input_datetime.wed_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.thu_garagesd_4
+                  - input_datetime.thu_start_date_garagesd_4
+                  - input_datetime.thu_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.fri_garagesd_4
+                  - input_datetime.fri_start_date_garagesd_4
+                  - input_datetime.fri_end_date_garagesd_4
+                  - type: divider
+                  - input_boolean.sat_garagesd_4
+                  - input_datetime.sat_start_date_garagesd_4
+                  - input_datetime.sat_end_date_garagesd_4
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 5
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_5
+              - entity: input_text.garagesd_pin_5
+              - entity: input_boolean.enabled_garagesd_5
+              - entity: input_boolean.notify_garagesd_5
+              - type: divider
+              - entity: binary_sensor.active_garagesd_5
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_5
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_5
+                  - entity: input_number.accesscount_garagesd_5
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_5
+                  - entity: input_datetime.start_date_garagesd_5
+                  - entity: input_datetime.end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.sun_garagesd_5
+                  - input_datetime.sun_start_date_garagesd_5
+                  - input_datetime.sun_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.mon_garagesd_5
+                  - input_datetime.mon_start_date_garagesd_5
+                  - input_datetime.mon_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.tue_garagesd_5
+                  - input_datetime.tue_start_date_garagesd_5
+                  - input_datetime.tue_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.wed_garagesd_5
+                  - input_datetime.wed_start_date_garagesd_5
+                  - input_datetime.wed_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.thu_garagesd_5
+                  - input_datetime.thu_start_date_garagesd_5
+                  - input_datetime.thu_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.fri_garagesd_5
+                  - input_datetime.fri_start_date_garagesd_5
+                  - input_datetime.fri_end_date_garagesd_5
+                  - type: divider
+                  - input_boolean.sat_garagesd_5
+                  - input_datetime.sat_start_date_garagesd_5
+                  - input_datetime.sat_end_date_garagesd_5
+      - type: vertical-stack
+        cards:
+          - content: |
+              ## Code 6
+            type: markdown
+          - type: entities
+            entities:
+              - entity: input_text.garagesd_name_6
+              - entity: input_text.garagesd_pin_6
+              - entity: input_boolean.enabled_garagesd_6
+              - entity: input_boolean.notify_garagesd_6
+              - type: divider
+              - entity: binary_sensor.active_garagesd_6
+              - type: divider
+              - type: 'custom:fold-entity-row'
+                head:
+                  type: section
+                  label: Advanced Options
+                entities:
+                  - entity: input_boolean.reset_advanced_garagesd_6
+                  - type: divider
+                  - entity: input_boolean.accesslimit_garagesd_6
+                  - entity: input_number.accesscount_garagesd_6
+                  - type: divider
+                  - entity: input_boolean.daterange_garagesd_6
+                  - entity: input_datetime.start_date_garagesd_6
+                  - entity: input_datetime.end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.sun_garagesd_6
+                  - input_datetime.sun_start_date_garagesd_6
+                  - input_datetime.sun_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.mon_garagesd_6
+                  - input_datetime.mon_start_date_garagesd_6
+                  - input_datetime.mon_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.tue_garagesd_6
+                  - input_datetime.tue_start_date_garagesd_6
+                  - input_datetime.tue_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.wed_garagesd_6
+                  - input_datetime.wed_start_date_garagesd_6
+                  - input_datetime.wed_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.thu_garagesd_6
+                  - input_datetime.thu_start_date_garagesd_6
+                  - input_datetime.thu_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.fri_garagesd_6
+                  - input_datetime.fri_start_date_garagesd_6
+                  - input_datetime.fri_end_date_garagesd_6
+                  - type: divider
+                  - input_boolean.sat_garagesd_6
+                  - input_datetime.sat_start_date_garagesd_6
+                  - input_datetime.sat_end_date_garagesd_6
